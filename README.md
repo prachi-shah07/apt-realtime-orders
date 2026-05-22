@@ -2,10 +2,6 @@
 
 **Assignment submission for APT (Atypical Technologies Pvt Ltd) — Backend Developer Internship**
 
-## Dashboard Preview
-
-![APT Real-Time Order Monitor Dashboard](./apt-dashboard.png)
-
 ## Overview & Objective
 
 The objective of this project was to build a production-grade, real-time order monitoring system. The system establishes a robust backend architecture using PostgreSQL's `LISTEN/NOTIFY` mechanism coupled with Node.js and WebSockets. This ensures that any change in the database immediately triggers a notification that propagates instantly to all connected browser clients, eliminating the need for polling and minimizing latency.
@@ -19,6 +15,10 @@ The objective of this project was to build a production-grade, real-time order m
 * **Automated One-Click Startup**: The project includes automation scripts to automatically create the necessary databases, run SQL migrations, install packages, and boot the server, providing a completely frictionless testing experience.
 
 ---
+
+## Dashboard Preview
+
+![APT Real-Time Order Monitor Dashboard](./apt-dashboard.png)
 
 ## Setup & Run (One-Click Start)
 
